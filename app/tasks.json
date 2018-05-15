@@ -1,0 +1,38 @@
+{
+  "todo": [
+    {
+      "position": 1,
+      "title": "Task A"
+    }
+  ],
+  "inprogress": [
+    {
+      "position": 1,
+      "title": "Task B"
+    },
+    {
+      "position": 2,
+      "title": "Task C"
+    }
+  ],
+  "review": [
+    {
+      "position": 1,
+      "title": "Task D"
+    },
+    {
+      "position": 2,
+      "title": "Task E"
+    },
+    {
+      "position": 3,
+      "title": "Task F"
+    }
+  ],
+  "done": [
+    {
+      "position": 1,
+      "title": "Task G"
+    }
+  ]
+}

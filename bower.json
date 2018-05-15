@@ -1,0 +1,8 @@
+{
+  "name": "js-taskboard",
+  "version": "0.0.1",
+  "dependencies": {
+    "jQuery": "3.2.1",
+    "bootstrap": "4.1.1"
+  }
+}

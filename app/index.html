@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Taskboard</title>
+    <link rel="stylesheet" type="text/css" href="components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="application/javascript" src="components/jQuery/dist/jquery.js"></script>
+</head>
+<body>
+<h1 class="text-center">taskboard</h1>
+<article class="container">
+    <section class="row tasktable">
+        <div class="col-3 taskcol" id="todo">
+            <h2 class="bg-info text-white">todo</h2>
+            <div class="tasks"></div>
+        </div>
+        <div class="col-3 taskcol" id="inprogress">
+            <h2 class="bg-primary text-white">in progress</h2>
+            <div class="tasks"></div>
+        </div>
+        <div class="col-3 taskcol" id="review">
+            <h2 class="bg-warning text-white">review</h2>
+            <div class="tasks"></div>
+        </div>
+        <div class="col-3 taskcol" id="done">
+            <h2 class="bg-success text-white">done</h2>
+            <div class="tasks"></div>
+        </div>
+    </section>
+    <section class="row">
+        <div class="col-12">
+            <button class="btn-outline-danger" id="clearLocalStorageButton">Clear locale</button>
+        </div>
+    </section>
+</article>
+<script type="application/javascript" src="js/tasksLoader.js"></script>
+</body>
+</html>

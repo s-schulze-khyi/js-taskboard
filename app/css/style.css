@@ -1,0 +1,33 @@
+/**
+* drag & dropable task table
+**/
+.tasktable .taskcol h2 {
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 5px;
+}
+
+.tasks  div{
+    background: grey;
+    min-height: 10px;
+    padding: 5px;
+    margin-bottom: 2.5px;
+}
+.tasks  div:hover{
+    cursor: move;
+}
+#todo {
+
+}
+
+#inprogress {
+
+}
+
+#review {
+
+}
+
+#done {
+
+}
